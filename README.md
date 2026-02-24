@@ -1,80 +1,17 @@
 <p align="center">
-
-<svg viewBox="0 0 900 200" width="100%" xmlns="http://www.w3.org/2000/svg">
-
-  <style>
-    .title {
-      font-family: 'Courier New', monospace;
-      font-size: 64px;
-      fill: #00FFB3;
-      letter-spacing: 6px;
-    }
-
-    .glitch-layer {
-      animation: glitch 2s infinite linear alternate-reverse;
-    }
-
-    .glitch-layer:nth-child(2) {
-      fill: #ff004c;
-      transform: translate(2px, -2px);
-      animation-delay: .2s;
-    }
-
-    .glitch-layer:nth-child(3) {
-      fill: #00e1ff;
-      transform: translate(-2px, 2px);
-      animation-delay: .4s;
-    }
-
-    @keyframes glitch {
-      0% { transform: translate(0); }
-      20% { transform: translate(-2px, 2px); }
-      40% { transform: translate(-2px, -2px); }
-      60% { transform: translate(2px, 2px); }
-      80% { transform: translate(2px, -2px); }
-      100% { transform: translate(0); }
-    }
-
-    .scanline {
-      stroke: #00FFB3;
-      stroke-width: 1;
-      opacity: 0.1;
-      animation: scan 3s infinite linear;
-    }
-
-    @keyframes scan {
-      0% { transform: translateY(-200px); }
-      100% { transform: translateY(200px); }
-    }
-  </style>
-
-  <g>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
-      SHEETSNAP
-    </text>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
-      SHEETSNAP
-    </text>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
-      SHEETSNAP
-    </text>
-  </g>
-
-  <line x1="0" y1="0" x2="900" y2="0" class="scanline"/>
-
-</svg>
-
+  <img src="assets/glitch-hero.svg" width="100%" />
 </p>
 
 <p align="center">
-DATA INTERROGATION PROTOCOL v1.0
+  <strong>DATA INTERROGATION PROTOCOL v1.0</strong>
 </p>
 
 ---
 
 ## SYSTEM BREACH
 
-Modern data tools look powerful.  
+Modern data tools look powerful.
+
 They are not.
 
 They sample.  
@@ -83,10 +20,13 @@ They summarize without understanding.
 They hallucinate confidence.
 
 You upload a dataset.  
-You receive a decoration.
+You receive decoration.
 
-Insight requires full context.  
-Most tools discard it.
+Dashboards visualize fragments.  
+AI tools guess context.
+
+Insight requires total visibility.  
+Most systems discard it.
 
 ---
 
@@ -103,9 +43,9 @@ It dissects data for truth.
 
 Upload a CSV or Excel file.  
 The engine parses every cell.  
-AI extracts only validated insight backed by real numbers.
+AI extracts only validated insights backed by real numbers.
 
-No fluff layer.  
+No fluff.  
 No vague summaries.  
 No synthetic intelligence theater.
 
@@ -124,31 +64,33 @@ Automatic classification:
 - Hybrid
 
 ### STATISTICAL CORE
-Mean  
-Median  
-Variance  
-Standard Deviation  
-Distribution Profiles  
-Outlier Detection  
+- Mean  
+- Median  
+- Variance  
+- Standard Deviation  
+- Distribution Profiles  
+- Outlier Detection  
 
 Computed instantly.
 
-### VISUAL STRIKE ARRAY (13 MODULES)
+---
 
-Categorical / Relational  
+## VISUAL STRIKE ARRAY (13 MODULES)
+
+### Categorical / Relational
 - Horizontal Bar  
 - Grouped Bar  
 - Stacked Bar  
 - Donut Breakdown  
 
-Trend / Distribution  
+### Trend / Distribution
 - Line Trend  
 - Area Comparison  
 - Histogram Distribution  
 - Scatter Correlation  
 - Bubble Matrix  
 
-Complex / Variance  
+### Complex / Variance
 - Radar Profile  
 - Radial Performance  
 - Composed Total / Average  
@@ -172,7 +114,7 @@ Ask the dataset directly:
 
 ````
 
-Response format:
+Response includes:
 
 - Exact numeric values  
 - Referenced column names  
@@ -252,9 +194,9 @@ vercel
 
 ## OPERATOR
 
-Name: Addy
-Role: Engineer
-Status: Building Relentlessly
+**Name:** Addy
+**Role:** Engineer
+**Status:** Building
 
 ---
 
