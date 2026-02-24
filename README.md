@@ -212,7 +212,7 @@ vercel
 
 # OPERATOR
 
-**Name:** Aditya
+**Name:** Aditya Sharma (ADDY)
 
 **Role:** Engineer
 
