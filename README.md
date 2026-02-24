@@ -1,5 +1,3 @@
----
-
 # 🕶️ SHEETSNAP
 
 > **Upload your data. Break it open. Let AI dissect it.**
@@ -173,4 +171,3 @@ vercel
 
 **SheetSnap doesn’t visualize data. It interrogates it.**
 
----
