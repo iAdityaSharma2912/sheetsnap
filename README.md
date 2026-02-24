@@ -38,6 +38,8 @@ Most systems discard it.
 
 # SOLUTION: SHEETSNAP
 
+https://sheetsnap-ai.vercel.app/
+
 SheetSnap reads everything.
 
 ✔ 100% of rows  
