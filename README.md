@@ -1,173 +1,272 @@
-# 🕶️ SHEETSNAP
+```markdown
+<p align="center">
 
-> **Upload your data. Break it open. Let AI dissect it.**
+<svg viewBox="0 0 900 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .title {
+      font-family: 'Courier New', monospace;
+      font-size: 64px;
+      fill: #00FFB3;
+      letter-spacing: 6px;
+    }
+
+    .glitch-layer {
+      animation: glitch 2s infinite linear alternate-reverse;
+    }
+
+    .glitch-layer:nth-child(2) {
+      fill: #ff004c;
+      transform: translate(2px, -2px);
+      animation-delay: .2s;
+    }
+
+    .glitch-layer:nth-child(3) {
+      fill: #00e1ff;
+      transform: translate(-2px, 2px);
+      animation-delay: .4s;
+    }
+
+    @keyframes glitch {
+      0% { transform: translate(0); }
+      20% { transform: translate(-2px, 2px); }
+      40% { transform: translate(-2px, -2px); }
+      60% { transform: translate(2px, 2px); }
+      80% { transform: translate(2px, -2px); }
+      100% { transform: translate(0); }
+    }
+
+    .scanline {
+      stroke: #00FFB3;
+      stroke-width: 1;
+      opacity: 0.1;
+      animation: scan 3s infinite linear;
+    }
+
+    @keyframes scan {
+      0% { transform: translateY(-200px); }
+      100% { transform: translateY(200px); }
+    }
+  </style>
+
+  <g>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
+      SHEETSNAP
+    </text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
+      SHEETSNAP
+    </text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="title glitch-layer">
+      SHEETSNAP
+    </text>
+  </g>
+
+  <line x1="0" y1="0" x2="900" y2="0" class="scanline"/>
+
+</svg>
+
+</p>
 
 <p align="center">
-<img src="[https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&color=00FFB3&center=true&vCenter=true&width=800&lines=](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&color=00FFB3&center=true&vCenter=true&width=800&lines=)>>+Initializing+SheetSnap...;>>+Full+Dataset+Access+Granted.;>>+Parsing+Every+Row...;>>+Generating+13+Visual+Attack+Vectors.;>>+AI+Analysis+Online.;>>+Ready+For+Query." alt="Typing SVG"/>
+DATA INTERROGATION PROTOCOL v1.0
 </p>
 
 ---
 
-## ▓▓ SYSTEM OVERVIEW
+## SYSTEM BREACH
 
-**Project:** SheetSnap
+Modern data tools look powerful.  
+They are not.
 
-**Mode:** Full Dataset Intelligence
+They sample.  
+They approximate.  
+They summarize without understanding.  
+They hallucinate confidence.
 
-**Status:** ACTIVE
+You upload a dataset.  
+You receive a decoration.
 
-**Author:** Addy
-
-SheetSnap is not a dashboard. **It’s a data weapon.**
-
-Drop in a CSV or Excel file. AI reads everything. No sampling. No guessing. No hallucinated nonsense. It strips the data down to the metal and tells you exactly what you are looking at.
-
----
-
-## ⚡ CORE CAPABILITIES
-
-* **Total Visibility:** Reads 100% of your dataset. No truncated contexts.
-* **Neural Parsing:** Auto-detects numeric vs. categorical columns instantly.
-* **Stat Breakdown:** Computes full statistical profiles in milliseconds.
-* **Dynamic Rendering:** Generates 13 dynamic chart types on the fly.
-* **Persistent Memory:** Enables AI chat with full conversational context.
-* **Lethal Precision:** Powered by GPT-4o for absolute insight extraction.
+Insight requires full context.  
+Most tools discard it.
 
 ---
 
-## 📊 VISUAL ATTACK MODULES (13)
+## SOLUTION: SHEETSNAP
 
-Zero manual config. Fully automated pattern extraction.
+SheetSnap reads everything.
 
-| Categorical / Relational | Trend / Distribution | Complex / Variance |
-| --- | --- | --- |
-| `[01]` Horizontal Bar | `[04]` Line Trend | `[10]` Radar Profile |
-| `[02]` Grouped Bar | `[05]` Area Comparison | `[11]` Radial Performance |
-| `[03]` Stacked Bar | `[06]` Histogram Dist. | `[12]` Composed Total/Avg |
-| `[09]` Donut Breakdown | `[07]` Scatter Correlation | `[13]` Variance Deviation |
-|  | `[08]` Bubble Matrix |  |
+100% of rows.  
+100% of columns.  
+Zero hallucination.
 
----
+It does not visualize data for aesthetics.  
+It dissects data for truth.
 
-## 🧠 AI ANALYSIS ENGINE
+Upload a CSV or Excel file.  
+The engine parses every cell.  
+AI extracts only validated insight backed by real numbers.
 
-The system prompt enforces a zero-tolerance policy for fluff:
-
-* **Must** use real numbers.
-* **Must** reference actual column names.
-* **Must** cite exact values.
-* **Must** be concise but precise.
-
-No fluffy summaries. Only weaponized insight.
+No fluff layer.  
+No vague summaries.  
+No synthetic intelligence theater.
 
 ---
 
-## 💬 LIVE CHAT MODE
+## CORE DIRECTIVES
 
-**Ask your dataset:**
+### FULL DATA ACCESS
+Every row is parsed. Nothing ignored.
 
-> *"What’s the highest revenue?"* > *"Are there anomalies?"* > *"Show correlation between stock and sales."* > *"Summarize risk exposure."* **AI responds with:**
+### COLUMN AUTOPSY
+Automatic classification:
+- Numeric
+- Categorical
+- Relational
+- Hybrid
 
-* Exact values
-* Statistical backing
-* Real dataset references
+### STATISTICAL CORE
+Mean  
+Median  
+Variance  
+Standard Deviation  
+Distribution Profiles  
+Outlier Detection  
 
-No vague answers. Only verified data.
+Computed instantly.
+
+### VISUAL STRIKE ARRAY (13 MODULES)
+
+Categorical / Relational  
+- Horizontal Bar  
+- Grouped Bar  
+- Stacked Bar  
+- Donut Breakdown  
+
+Trend / Distribution  
+- Line Trend  
+- Area Comparison  
+- Histogram Distribution  
+- Scatter Correlation  
+- Bubble Matrix  
+
+Complex / Variance  
+- Radar Profile  
+- Radial Performance  
+- Composed Total / Average  
+- Variance Deviation  
+
+Zero manual configuration.  
+Automatic pattern extraction.
 
 ---
 
-## 🧬 TECH STACK
+## AI INTERROGATION TERMINAL
 
-**Frontend:** React (Vite) | Recharts | XLSX | PapaParse | Custom Canvas Animations
+Ask the dataset directly:
 
-**Backend:** Vercel Serverless API | OpenAI GPT-4o Engine
+```
 
-**Deployment:** Vercel Edge Network
+> highest revenue?
+> detect anomalies
+> correlate stock and margin
+> which region underperformed Q4?
+
+````
+
+Response format:
+
+- Exact numeric values  
+- Referenced column names  
+- Statistical justification  
+- Concise analytical output  
+
+No filler language.  
+Only verified extraction.
 
 ---
 
-## 🛠 DEPLOYMENT PROTOCOL
+## ARCHITECTURE STACK
 
-### [DEPENDENCIES]
+Frontend  
+React (Vite)  
+Recharts  
+XLSX  
+PapaParse  
+Custom Canvas Animations  
 
-Ensure you have the following installed on your local terminal:
+Backend  
+Vercel Serverless API  
+OpenAI GPT-4o Engine  
 
-* [Node.js](https://www.google.com/search?q=https://nodejs.org/) (v18+ recommended)
-* [Git](https://www.google.com/search?q=https://git-scm.com/)
+Deployment  
+Vercel Edge Network  
 
-### [INITIALIZATION]
+---
 
-**1. Clone the repository:**
+## DEPLOYMENT SEQUENCE
+
+### 1 — Clone
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/SheetSnap.git
 cd SheetSnap
+````
 
-```
-
-**2. Install dependencies:**
+### 2 — Install
 
 ```bash
 npm install
-
 ```
 
-**3. Configure environment:**
-Create a `.env` file in the root directory and inject your OpenAI credentials:
+### 3 — Configure Environment
+
+Create `.env` in root:
 
 ```env
 VITE_OPENAI_API_KEY=your_key_here
-
 ```
 
-**4. Spin up the local server:**
+### 4 — Run Local
 
 ```bash
 npm run dev
-
 ```
 
-**5. Push to production:**
+### 5 — Deploy
 
 ```bash
 vercel
-
 ```
 
 ---
 
-## 🧨 ROADMAP
+## ROADMAP: PHASE II
 
-* [ ] Export AI report to PDF
-* [ ] Predictive forecasting engine
-* [ ] Multi-operator collaboration
-* [ ] Dataset mutation & history tracking
-* [ ] Enterprise security layer
-
----
-
-## 👨‍💻 OPERATOR
-
-**Name:** Addy
-
-**Role:** Engineer
-
-**Status:** Building
-
-**▓ Connect:**
-
-<p align="left">
-<a href="[https://www.instagram.com/iaddy29](https://www.instagram.com/iaddy29)">
-<img src="[https://img.shields.io/badge/Instagram-@iaddy29-00FFB3?style=for-the-badge&logo=instagram&logoColor=black](https://img.shields.io/badge/Instagram-@iaddy29-00FFB3?style=for-the-badge&logo=instagram&logoColor=black)" alt="Instagram"/>
-</a>
-<a href="[https://www.x.com/iaddy29](https://www.x.com/iaddy29)">
-<img src="[https://img.shields.io/badge/X-@iaddy29-00FFB3?style=for-the-badge&logo=x&logoColor=black](https://img.shields.io/badge/X-@iaddy29-00FFB3?style=for-the-badge&logo=x&logoColor=black)" alt="X"/>
-</a>
-</p>
+* AI-generated forensic PDF reports
+* Predictive forecasting engine
+* Multi-operator collaboration
+* Dataset mutation tracking
+* Enterprise encryption layer
+* Offline private inference mode
 
 ---
 
-### ☠ FINAL MESSAGE
+## OPERATOR
 
-**SheetSnap doesn’t visualize data. It interrogates it.**
+Name: Addy
+Role: Engineer
+Status: Building Relentlessly
 
+---
+
+## FINAL TRANSMISSION
+
+Most tools help you see data.
+
+SheetSnap forces data to confess.
+
+Upload.
+Interrogate.
+Extract truth.
+
+```
