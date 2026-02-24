@@ -212,8 +212,10 @@ vercel
 
 # OPERATOR
 
-**Name:** Addy
+**Name:** Aditya
+
 **Role:** Engineer
+
 **Status:** Building Relentlessly
 
 ---
@@ -228,4 +230,3 @@ Upload.
 Interrogate.
 Extract truth.
 
-```
